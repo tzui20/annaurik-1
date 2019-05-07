@@ -1,0 +1,131 @@
+
+/*GENERAL CSS*/
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+font-family: 'Open Sans Condensed', sans-serif;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+   height: fit-content;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   -moz-osx-font-smoothing: grayscale;
+   scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*Top Navigation*/
+
+.logo__name {
+    text-align: center;
+    margin: 0.5rem 2rem 1rem 2rem;
+    font-size: 2.5rem;
+}
+
+.top__bar {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    color: #FFD1DC;
+    position: fixed;
+        z-index: 1;
+}
+
+
+.menu__bar {
+    display: flex;
+    height: fit-content;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li.menu__item {
+    padding: 0.5rem 0rem;
+    margin: 0rem 3rem;
+    list-style-type: none;
+    font-size: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+        font-weight: bold;
+}
+
+li.menu__item:hover {
+	opacity: 0.8;
+	color: #96698C;
+	border-bottom: 1px groove #FFD1DC;
+}
+
+li.menu__item.insta:hover {
+	opacity: 0.8;
+	border: none;
+}
+
+img.instagram {
+    height: 21px;
+    position: relative;
+    top: 2px;
+}
+
+/*About Section*/
+
+
+
+.about__body {
+    width: 100%;
+    padding-top: 9rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+        z-index: 2;
+}
+
+.about__body.second {
+    padding-top: 0;
+}
+
+.second .about__item {
+    text-align: center;
+}
+
+.about__item {
+    padding: 2rem;
+    width: 50%;
+    margin: auto;
+    text-align: -webkit-left;
+}
+
+.about__item a:hover {
+    opacity: 0.4;
+}
+
+img.about__image {
+    width: 100%;
+    object-fit: contain;
+        border-radius: 55%;
+}
+
+img.festival-logo {
+    height: 200px;
+}
+
+@media (max-width: 981px) {
+    .about__body {
+    flex-direction: column; }
+    .about__item {
+     text-align: center;
+    }
+}
