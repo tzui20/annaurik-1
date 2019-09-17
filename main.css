@@ -136,6 +136,13 @@ img.instagram {
     text-align: -webkit-left;
 }
 
+.about__contact {
+    text-align: center;
+    background: black;
+    color: white;
+    width: auto;
+}
+
 .about__item a:hover {
     opacity: 0.4;
 }
