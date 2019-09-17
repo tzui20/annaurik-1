@@ -183,6 +183,12 @@ img.festival-logo {
         position: relative;
 }
 
+.shoot__item {
+    padding: 2rem 0rem 1rem;
+    margin: auto;
+        position: relative;
+}
+
 img.gallery__img {
     width: 700px;
 }
