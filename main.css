@@ -141,6 +141,7 @@ img.instagram {
     background: black;
     color: white;
     width: auto;
+    border-radius: 50%;
 }
 
 .about__item a:hover {
