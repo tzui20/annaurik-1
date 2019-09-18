@@ -225,7 +225,7 @@ img.gallery__img {
 	scroll-behavior: smooth;
 }
 
-img.backtop {
+.backtop img {
     width: 50px;
 }
 
