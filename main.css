@@ -1,17 +1,16 @@
 .container {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
 }
 .video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
-
 #myvideo {
 	position: fixed;
 	top: 50%;
@@ -24,233 +23,197 @@
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 	background-size: cover;
-	}
-
-
+}
 /*GENERAL CSS*/
 
-*,
-*::after,
-*::before {
+*, *::after, *::before {
 	margin: 0;
 	padding: 0;
 	box-sizing: inherit;
 	font-family: 'Lato', sans-serif;
 	-webkit-font-smoothing: antialiased;
-  	-moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale;
 }
-
-html,
-body {
-   height: fit-content;
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   -moz-osx-font-smoothing: grayscale;
-   scroll-behavior: smooth;
+html, body {
+	height: fit-content;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-osx-font-smoothing: grayscale;
+	scroll-behavior: smooth;
 }
-
 a {
 	text-decoration: none;
 	color: inherit;
 }
-
 /*Top Navigation*/
 
 .logo__name {
-    text-align: center;
-    margin: 0.5rem 2rem 1rem 2rem;
-    font-size: 2.5rem;
+	text-align: center;
+	margin: 0.5rem 2rem 1rem 2rem;
+	font-size: 2.5rem;
 }
-
 .top__bar {
-    display: block;
-    width: 100%;
-    height: fit-content;
-    color: #FFD1DC;
-    position: fixed;
-    z-index: 1;
+	display: block;
+	width: 100%;
+	height: fit-content;
+	color: #FFD1DC;
+	position: fixed;
+	z-index: 1;
 }
-
-
 .menu__bar {
-    display: flex;
-    height: fit-content;
-    width: auto;
-    flex-wrap: wrap;
-    justify-content: center;
+	display: flex;
+	height: fit-content;
+	width: auto;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-
 li.menu__item {
-    padding: 0.5rem 0rem;
-    margin: 0rem 2rem;
-    list-style-type: none;
-    font-size: 26px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
+	padding: 0.5rem 0rem;
+	margin: 0rem 2rem;
+	list-style-type: none;
+	font-size: 26px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
-
 li.menu__item:hover {
 	opacity: 0.8;
 	color: #96698C;
 	border-bottom: 1px groove #FFD1DC;
 }
-
 li.menu__item.insta:hover {
 	opacity: 0.8;
 	border: none;
 	color: #96698C;
 }
-
 img.instagram {
-    height: 21px;
-    position: relative;
-    top: 2px;
+	height: 21px;
+	position: relative;
+	top: 2px;
 }
-
 /*About Section*/
 
-
-
 .about__body {
-    width: 100%;
-    padding-top: 9rem;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
-        z-index: 2;
+	width: 100%;
+	padding-top: 9rem;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	z-index: 2;
 }
-
 .about__body.second {
-    padding-top: 0;
+	padding-top: 0;
 }
-
 .second .about__item {
-    text-align: center;
+	text-align: center;
 }
-
 .about__item {
-    padding: 4rem;
-    width: 50%;
-    margin: auto;
-    text-align: -webkit-left;
+	padding: 4rem;
+	width: 50%;
+	margin: auto;
+	text-align: -webkit-left;
 }
-
 .about__contact {
-    text-align: center;
-    background: black;
-    color: white;
-    width: auto;
-    border-radius: 50%;
-    margin-bottom: 60px;
+	text-align: center;
+	background: black;
+	color: white;
+	width: auto;
+	border-radius: 50%;
+	margin-bottom: 60px;
 }
-
 .about__item a:hover {
-    opacity: 0.4;
+	opacity: 0.4;
 }
-
 img.about__image {
-    width: 100%;
-    object-fit: contain;
-        border-radius: 55%;
+	width: 100%;
+	object-fit: contain;
+	border-radius: 55%;
+	-moz-box-shadow: 3px 3px 5px 6px #ccc;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+	box-shadow: 3px 3px 5px 6px #ccc;
 }
-
 img.festival-logo {
-    height: 150px;
+	height: 150px;
 }
-
 @media (max-width: 981px) {
-    .about__body {
-        flex-direction: column; }
-    .about__item {
-        text-align: center;
-        padding: 2rem;
-    }
+	.about__body {
+		flex-direction: column;
+	}
+	.about__item {
+		text-align: center;
+		padding: 2rem;
+	}
 }
-
-
 /*Gallery Photography*/
 
 .gallery__wrapper {
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    padding-top: 10rem;
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	padding-top: 10rem;
 }
-
 .gallery {
-    width: auto;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-        margin: auto;
+	width: auto;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
 }
-
 .gallery__item {
-    padding: 2rem 0rem 1rem;
-    margin: auto;
-    position: relative;
+	padding: 2rem 0rem 1rem;
+	margin: auto;
+	position: relative;
 }
-
 .shoot__item {
-    padding: 3rem 1rem 1rem 1rem;
-    margin: auto;
-    position: relative;
+	padding: 3rem 1rem 1rem 1rem;
+	margin: auto;
+	position: relative;
 }
-
 img.gallery__img {
-    width: 560px;
+	width: 560px;
 }
-
 .gallery__item h1 {
-   position: relative;
-    font-size: 50px;
-    color: #FFD1DC;
-    text-transform: uppercase;
-    text-align: -webkit-left;
+	position: relative;
+	font-size: 50px;
+	color: #FFD1DC;
+	text-transform: uppercase;
+	text-align: -webkit-left;
 }
-
 .gallery__item:hover {
-    opacity: 0.8;
-    transition: 0.2s ease-in;
+	opacity: 0.8;
+	transition: 0.2s ease-in;
 }
-
 /*FOOTER*/
 
 .backtop {
-    position: relative;
-    text-align: right;
-    padding: 0rem 2rem;
+	position: relative;
+	text-align: right;
+	padding: 0rem 2rem;
 	scroll-behavior: smooth;
 }
-
 .backtop img {
-    width: 50px;
+	width: 50px;
 }
-
 .footer {
-    padding: 20px 27px;
-    position: static;
-    bottom: 0;
-    right: 0;
-    color: black;
-    font-size: 11px;
-    text-align: end;
+	padding: 20px 27px;
+	position: static;
+	bottom: 0;
+	right: 0;
+	color: black;
+	font-size: 11px;
+	text-align: end;
 }
-
-
 /*RESPONSIVENESS*/
 
-
 @media (max-width: 980px) {
-.logo__name {
-    font-size: 3.5rem;
-}
-li.menu__item {
-    font-size: 36px;
-}
-img.instagram {
-    height: 31px;
-}
+	.logo__name {
+		font-size: 3.5rem;
+	}
+	li.menu__item {
+		font-size: 36px;
+	}
+	img.instagram {
+		height: 31px;
+	}
 }
