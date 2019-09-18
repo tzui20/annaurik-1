@@ -218,6 +218,16 @@ img.gallery__img {
 
 /*FOOTER*/
 
+.backtop {
+    position: relative;
+    text-align: right;
+    padding: 0rem 2rem;
+}
+
+img.backtop {
+    width: 50px;
+}
+
 .footer {
     padding: 20px 27px;
     position: static;
