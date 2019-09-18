@@ -222,6 +222,7 @@ img.gallery__img {
     position: relative;
     text-align: right;
     padding: 0rem 2rem;
+	scroll-behavior: smooth;
 }
 
 img.backtop {
