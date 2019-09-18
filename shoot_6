@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	<body>
+<a name="top"></a>
+<div class="top__bar">
+	<div class="logo__name"><a href="main.html">ANNA URIK</a></div>
+	<ul class="menu__bar">
+		<a href="photography.html"><li class="menu__item">Photography</li></a>
+		<a href="films.html"><li class="menu__item">Films</li></a>
+		<a href="about.html"><li class="menu__item">About</li></a>
+		<a href="https://www.instagram.com/anna.urik/" target="_blank" ><li class="menu__item insta"><img class="instagram" src="instagram.png" title="Instagram" alt="Instagram"></li></a>
+	</ul>
+</div>
+<div class="gallery__wrapper">
+	<div class="gallery">
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-1.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-2.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-3.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-4.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-5.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-6.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-7.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-8.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-9.jpg"></div>
+    <div class="shoot__item"><img class="gallery__img" src="shoot-six/img-10.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-11.jpg"></div>
+    <div class="shoot__item"><img class="gallery__img" src="shoot-six/img-12.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-13.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-14.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-15.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-16.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-17.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-18.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-19.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-20.jpg"></div>
+    <div class="shoot__item"><img class="gallery__img" src="shoot-six/img-21.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-22.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-23.jpg"></div>
+		<div class="shoot__item"><img class="gallery__img" src="shoot-six/img-24.jpg"></div>
+	</div>
+</div>
+		<br>
+		<br>
+				<a href="#top"><div class="backtop"><img src="arrow-up.png"></div></a>
+
+<div class="footer" style="z-index: -1;">Copyright © 2019 Anna Urik . Design by Pascal Ebner . All Rights Reserved.</div>
+
+</body>
+</html>
