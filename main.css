@@ -226,10 +226,11 @@ img.gallery__img {
 /*FOOTER*/
 
 .footer {
-padding: 20px 27px;
-position: fixed;
-bottom: 0;
-right: 0;
-color: black;
-font-size: 11px;
+    padding: 20px 27px;
+    position: static;
+    bottom: 0;
+    right: 0;
+    color: black;
+    font-size: 11px;
+    text-align: end;
 }
