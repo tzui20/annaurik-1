@@ -226,10 +226,20 @@ img.gallery__img {
 		height: 31px;
 	}
 	.about__content {
-		width: 600px;
+	width: 600px;
     font-size: 24px;
 	}
 	.gallery {
     flex-direction: column;
+	.about__contact {
+		background-color: black;
+		font-size: 24px;
+		color: white;
+		width: 480px;
+		border-radius: 50%;
+		margin-bottom: 60px;
+		height: 480px;
+		padding: 6rem !important;
+		box-shadow: 3px 3px 5px 6px #ccc;
 }
 }
