@@ -231,6 +231,7 @@ img.gallery__img {
 	}
 	.gallery {
     flex-direction: column;
+	}
 	.about__contact {
 		background-color: black;
 		font-size: 24px;
