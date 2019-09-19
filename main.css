@@ -212,7 +212,9 @@ img.gallery__img {
 	color: black;
 	font-size: 11px;
 	text-align: end;
+	font-style: italic;
 }
+
 /*RESPONSIVENESS*/
 
 @media (max-width: 980px) {
@@ -224,6 +226,9 @@ img.gallery__img {
 	}
 	img.instagram {
 		height: 31px;
+	}
+	img.instagram:hover {
+		transform: scale(1.5);
 	}
 	.about__content {
 	width: 600px;
