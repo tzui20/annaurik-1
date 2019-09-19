@@ -224,4 +224,7 @@ img.gallery__img {
 		width: 600px;
     font-size: 24px;
 	}
+	.gallery {
+    flex-direction: column;
+}
 }
