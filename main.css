@@ -176,7 +176,7 @@ img.gallery__img {
 .gallery__item h1 {
 	position: relative;
 	font-size: 40px;
-	color: #FFD1DC;
+	color: black;
 	text-transform: uppercase;
 	text-align: -webkit-left;
 }
