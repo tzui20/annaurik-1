@@ -127,6 +127,9 @@ text-align: center;
     padding: 4rem !important;
 	box-shadow: 3px 3px 5px 6px #ccc;
 }
+.about__item.about__contact:hover {
+    transform: scale(1.5);
+}
 .about__item a:hover {
 	opacity: 0.4;
 }
@@ -141,15 +144,7 @@ img.about__image {
 img.festival-logo {
 	height: 150px;
 }
-@media (max-width: 981px) {
-	.about__body {
-		flex-direction: column;
-	}
-	.about__item {
-		text-align: center;
-		padding: 2rem;
-	}
-}
+
 /*Gallery Photography*/
 
 .gallery__wrapper {
@@ -217,7 +212,7 @@ img.gallery__img {
 
 /*RESPONSIVENESS*/
 
-@media (max-width: 980px) {
+@media (max-width: 981px) {
 	.logo__name {
 		font-size: 3.5rem;
 	}
@@ -248,4 +243,13 @@ img.gallery__img {
 		padding: 6rem !important;
 		box-shadow: 3px 3px 5px 6px #ccc;
 }
+}
+@media (max-width: 981px) {
+	.about__body {
+		flex-direction: column;
+	}
+	.about__item {
+		text-align: center;
+		padding: 2rem;
+	}
 }
