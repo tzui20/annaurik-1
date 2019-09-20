@@ -188,6 +188,10 @@ img.gallery__img {
 	transition: 0.2s ease-in;
 }
 
+.photo_text {
+	font-weight: 300;
+}
+
 
 /*FOOTER*/
 
