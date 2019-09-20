@@ -181,6 +181,7 @@ img.gallery__img {
 	color: black;
 	text-transform: uppercase;
 	text-align: -webkit-left;
+	font-weight: 300;
 }
 .gallery__item:hover {
 	opacity: 0.8;
