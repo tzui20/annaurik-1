@@ -143,7 +143,7 @@ img.instagram {
 	padding: 4rem;
 	width: 50%;
 	margin: auto;
-	text-align: -webkit-left;
+    text-align: justify;
 }
 .about__contact {
 	text-align: center;
@@ -218,9 +218,9 @@ img.gallery__img {
 	font-weight: 300;
 }
 
-	img.instagram:hover {
+img.instagram:hover {
 		transform: scale(1.5);
-	}
+}
 
 
 /*FOOTER*/
@@ -276,7 +276,7 @@ img.gallery__img {
 		padding: 6rem !important;
 		box-shadow: 3px 3px 5px 6px #ccc;
 		}
-		.about__item.about__contact:hover {
+	.about__item.about__contact:hover {
 			transform: scale(1);
 		}
 }
