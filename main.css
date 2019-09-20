@@ -22,7 +22,7 @@
 	
 }
 .gallery__item:hover img {
-	-webkit-filter: sepia(0%);
+	-webkit-filter: opacity(0.4);
 }
 
 
