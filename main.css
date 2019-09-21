@@ -140,9 +140,9 @@ img.instagram {
 	text-align: center;
 }
 .about__item {
-	padding: 4rem;
-	width: 50%;
-	margin: auto;
+    padding: 2rem 1rem;
+    width: 500px;
+    margin: auto;
     text-align: justify;
 }
 .about__contact {
