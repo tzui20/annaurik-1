@@ -1,4 +1,6 @@
 /*With Simple Caption*/
+
+@media (min-width: 981px) {
 .gallery__item {
 	position: relative;
 }
@@ -24,7 +26,7 @@
 .gallery__item:hover img {
 	-webkit-filter: opacity(0.4);
 }
-
+}
 
 
 .container {
