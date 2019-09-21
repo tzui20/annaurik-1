@@ -159,6 +159,7 @@ img.instagram {
   width: 500px;
   margin: auto;
   text-align: justify;
+  font-weight: 300;
 }
 
 .about__contact {
@@ -270,7 +271,6 @@ img.instagram:hover {
   color: black;
   font-size: 11px;
   text-align: end;
-  font-style: italic;
 }
 
 /*RESPONSIVENESS*/
