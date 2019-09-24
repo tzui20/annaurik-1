@@ -299,7 +299,7 @@ img.gallery__img {
   text-transform: uppercase;
   text-align: -webkit-left;
   font-weight: 300;
-    transform: skew(10deg, 10deg)
+  transform: translate(-50%, -50%) skew(10deg, 10deg);
 }
 
 .gallery__item:hover {
