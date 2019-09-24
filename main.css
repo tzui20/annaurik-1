@@ -67,9 +67,9 @@
 }
 
 .one {
--webkit-animation-delay: 1.4s;
--moz-animation-delay: 1.4s;
-animation-delay: 1.4s;
+-webkit-animation-delay: 1s;
+-moz-animation-delay: 1s;
+animation-delay: 1s;
 }
 
 .fadeInLeft {
