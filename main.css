@@ -1,35 +1,4 @@
-/*With Simple Caption*/
 
-@media (min-width: 981px) {
-  .gallery__item {
-    position: relative;
-  }
-
-  .gallery__item .photo_text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-    opacity: 0;
-    transition: all 2s ease;
-    text-align: center;
-    width: 100%;
-  }
-
-  .gallery__item .photo_text h1 {
-    margin: 0;
-    color: white;
-  }
-
-  .gallery__item:hover .photo_text {
-    opacity: 1;
-  }
-
-  .gallery__item:hover img {
-    -webkit-filter: opacity(0.4);
-  }
-}
 
 .container {
   position: relative;
@@ -172,6 +141,7 @@ img.instagram {
   height: 280px;
   padding: 4rem !important;
   box-shadow: 3px 3px 5px 6px #ccc;
+  font-weight: 300;
 }
 
 .about__item.about__contact:hover {
@@ -249,6 +219,38 @@ img.instagram:hover {
   transform: scale(1.5);
 }
 
+/*With Simple Caption*/
+
+@media (min-width: 981px) {
+  .gallery__item {
+    position: relative;
+  }
+
+  .gallery__item .photo_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    opacity: 0;
+    transition: all 2s ease;
+    text-align: center;
+    width: 100%;
+  }
+
+  .gallery__item .photo_text h1 {
+    margin: 0;
+    color: white;
+  }
+
+  .gallery__item:hover .photo_text {
+    opacity: 1;
+  }
+
+  .gallery__item:hover img {
+    -webkit-filter: opacity(0.4);
+  }
+}
 
 /*FOOTER*/
 
