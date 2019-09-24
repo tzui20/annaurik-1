@@ -289,7 +289,6 @@ img.festival-logo {
 
 img.gallery__img {
   width: 460px;
-  transform: skew(10deg, 10deg)
 }
 
 .gallery__item h1 {
@@ -328,8 +327,7 @@ img.instagram:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-  transform: translate(-50%, -50%) skew(10deg, 10deg);
-
+    transform: translate(-50%, -50%);
     z-index: 10;
     opacity: 0;
     transition: all 2s ease;
