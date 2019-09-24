@@ -26,6 +26,7 @@
   }
 }
 
+/*==== FADE IN RIGHT ===*/
 @-webkit-keyframes fadeInRight {
   from {
     opacity: 0;
