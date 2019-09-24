@@ -219,6 +219,10 @@ img.instagram:hover {
   transform: scale(1.5);
 }
 
+.still-image {
+	width: 480px;
+}
+
 /*With Simple Caption*/
 
 @media (min-width: 981px) {
