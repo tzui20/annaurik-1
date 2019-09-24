@@ -288,7 +288,8 @@ img.festival-logo {
 }
 
 img.gallery__img {
-  width: 560px;
+  width: 460px;
+  transform: skew(10deg, 10deg)
 }
 
 .gallery__item h1 {
@@ -298,6 +299,7 @@ img.gallery__img {
   text-transform: uppercase;
   text-align: -webkit-left;
   font-weight: 300;
+    transform: skew(10deg, 10deg)
 }
 
 .gallery__item:hover {
