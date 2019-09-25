@@ -314,6 +314,9 @@ img.instagram:hover {
   .about__item.about__contact:hover {
     transform: scale(1);
   }
+  h1.photo_text {
+    font-size: 33px;
+}
 }
 
 @media (max-width: 981px) {
