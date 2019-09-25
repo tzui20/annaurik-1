@@ -171,11 +171,11 @@ img.festival-logo {
 }
 
 .gallery {
-  width: auto;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
+    width: 72%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 .gallery__item {
