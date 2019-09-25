@@ -329,7 +329,7 @@ img.instagram:hover {
 
 /*=== FADE IN LEFT ===*/
 
-@media (max-width: 981px) {
+@media (min-width: 981px) {
 @-webkit-keyframes fadeInLeft {
   from {
     opacity: 0;
