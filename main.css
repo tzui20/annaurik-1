@@ -328,6 +328,8 @@ img.instagram:hover {
     text-align: center;
     padding: 2rem;
   }
+  .logo-name {
+	font-size: 4.5rem;
 }
 
 /*=== FADE IN LEFT ===*/
