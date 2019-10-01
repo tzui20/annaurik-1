@@ -58,6 +58,7 @@ a {
   text-align: center;
   margin: 0.5rem 2rem 1rem 2rem;
   font-size: 4.5rem;
+  letter-spacing: 1rem;
 }
 
 .top__bar {
@@ -332,8 +333,10 @@ img.instagram:hover {
 
 	.logo__name__homepage {
 			font-size: 4.5rem !important;
+			letter-spacing: unset;
 	}
 	}
+	
 /*=== FADE IN LEFT ===*/
 
 @media (min-width: 981px) {
