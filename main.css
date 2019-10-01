@@ -330,13 +330,16 @@ img.instagram:hover {
     text-align: center;
     padding: 2rem;
   }
+}
 
-	.logo__name__homepage {
-			font-size: 4.5rem !important;
-			letter-spacing: unset;
-	}
-	}
-	
+@media (min-width: 982px) {
+		.logo__name__homepage {
+			font-size: 7.5rem;
+			letter-spacing: 1rem;
+	}	
+}
+
+
 /*=== FADE IN LEFT ===*/
 
 @media (min-width: 981px) {
