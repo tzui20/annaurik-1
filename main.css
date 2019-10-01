@@ -95,8 +95,8 @@ li.menu__item {
 }
 
 li.menu__item:hover {
-  opacity: 0.8;
-  color: #96698C;
+  opacity: 0.7;
+  color: black;
   border-bottom: 1px groove black;
 }
 
