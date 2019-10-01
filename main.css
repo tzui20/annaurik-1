@@ -275,6 +275,7 @@ img.instagram:hover {
   text-align: end;
 }
 
+
 /*RESPONSIVENESS*/
 
 @media (max-width: 981px) {
@@ -331,7 +332,10 @@ img.instagram:hover {
   .logo-name {
 	font-size: 4.5rem;
 }
-
+	.logo__name__homepage {
+			font-size: 4.5rem !important;
+	}
+	}
 /*=== FADE IN LEFT ===*/
 
 @media (min-width: 981px) {
