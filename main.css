@@ -537,7 +537,13 @@ img.instagram:hover {
 		padding: 2rem;
 
 	}
+	.logo__name__homepage {
 
+		font-size: 7.5rem;
+
+		letter-spacing: unset;
+
+	}
 }
 
 @media (min-width: 982px) {
