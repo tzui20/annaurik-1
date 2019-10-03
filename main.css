@@ -572,6 +572,9 @@ img.instagram:hover {
 	img.instagram {
     height: 76px;
 }
+li.menu__item:hover {
+    border-bottom: 0px groove black;
+}
 }
 
 
