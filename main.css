@@ -558,6 +558,23 @@ img.instagram:hover {
 
 }
 
+
+@media (max-width: 680px) {
+	li.menu__item {
+    font-size: 64px;
+    margin-top: 36px;
+}
+.menu__bar {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+	img.instagram {
+    height: 76px;
+}
+}
+
+
 /*=== FADE IN LEFT ===*/
 
 @media (min-width: 981px) {
