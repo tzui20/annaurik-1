@@ -427,7 +427,7 @@ img.instagram:hover {
     text-align: center;
     margin: auto;
 	}
-	.insta.homepage__item {
+	.insta .homepage__item {
 		height: 60px !important;
 	}
 }
