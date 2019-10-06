@@ -412,6 +412,22 @@ img.instagram:hover {
 
 }
 
+@media (max-width: 981px) {
+	.homepage__item {
+	padding: 30px;
+}
+	.homepage__menu {
+		display: flex;
+    height: fit-content;
+    width: fit-content;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+	}
+}
+
 /*FOOTER*/
 
 .backtop {
