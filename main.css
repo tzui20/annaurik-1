@@ -263,7 +263,7 @@ img.instagram:hover {
   }
 }
 
-@media (max-width: 981px) {
+@media (max-width: 550px) {
   .homepage__item {
     padding: 30px !important;
     font-size: 58px !important;
