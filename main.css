@@ -144,13 +144,7 @@ img.instagram {
 
 .about__contact {
   text-align: center;
-  background: black;
-  color: white;
-  width: 280px;
-  border-radius: 50%;
-  margin: auto;
-  height: 280px;
-  padding: 4rem !important;
+  color: black;
   font-weight: 300;
 }
 
