@@ -147,6 +147,15 @@ img.instagram {
   text-align: center;
   color: black;
   font-weight: 300;
+  border: 1px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.about__contact:hover {
+    background-color: black;
+    color: white;
 }
 
 .about__item.about__contact:hover {
