@@ -85,6 +85,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
+  margin: auto;
 }
 
 li.menu__item {
