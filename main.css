@@ -274,10 +274,6 @@ img.instagram:hover {
     text-align: center;
     margin: auto;
   }
-
-  .insta__homepage {
-    height: 60px !important;
-  }
 }
 
 /*FOOTER*/
@@ -303,7 +299,7 @@ img.instagram:hover {
   text-align: end;
 }
 
-/*RESPONSIVENESS*/
+/*RESPONSIVENESS
 
 @media (max-width: 981px) {
 
@@ -373,7 +369,7 @@ img.instagram:hover {
     letter-spacing: 1rem;
   }
 }
-
+*/
 
 
 
