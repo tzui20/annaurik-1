@@ -120,7 +120,6 @@ img.instagram {
 .about__body {
 	width: 75%;
     margin: auto;
-    padding-top: 9rem;
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
@@ -179,7 +178,7 @@ img.festival-logo {
   width: 100%;
   height: fit-content;
   display: flex;
-  padding-top: 10rem;
+  padding-top: 1rem;
 }
 
 .gallery {
