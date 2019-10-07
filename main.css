@@ -81,7 +81,7 @@ a {
 .menu__bar {
   display: flex;
   height: fit-content;
-  width: auto;
+  width: 90%;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
