@@ -118,12 +118,13 @@ img.instagram {
 /*About Section*/
 
 .about__body {
-  width: 100%;
-  padding-top: 9rem;
-  flex-wrap: wrap;
-  display: flex;
-  flex-direction: row;
-  z-index: 2;
+	width: 75%;
+    margin: auto;
+    padding-top: 9rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
 }
 
 .about__body.second {
