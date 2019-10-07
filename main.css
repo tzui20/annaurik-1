@@ -264,11 +264,6 @@ img.instagram:hover {
 }
 
 @media (max-width: 980px) {
-  .homepage__item {
-    padding: 30px !important;
-    font-size: 58px !important;
-  }
-
   .homepage__menu {
     display: flex;
     height: fit-content;
