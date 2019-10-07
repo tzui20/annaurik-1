@@ -64,7 +64,7 @@ a {
 
 .logo__name {
   text-align: center;
-  margin: 0.5rem 2rem 1rem 2rem;
+    margin: auto;
   font-size: 4.5rem;
   letter-spacing: unset;
 }
