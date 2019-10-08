@@ -376,8 +376,11 @@ img.instagram:hover {
 }
 */
 
-
-
+@media (max-width: 480px) {
+	img.gallery__img {  
+	width: 100%;
+}
+}
 
 /*=== FADE IN LEFT ===*/
 
