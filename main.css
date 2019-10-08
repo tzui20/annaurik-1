@@ -380,6 +380,10 @@ img.instagram:hover {
 	img.gallery__img {  
 	width: 100%;
 }
+	.gallery__item h1 {
+	    font-size: 25px;
+	    text-align: center;
+}
 }
 
 /*=== FADE IN LEFT ===*/
