@@ -384,6 +384,12 @@ img.instagram:hover {
 	    font-size: 25px;
 	    text-align: center;
 }
+.gallery {
+    width: 100%;
+}
+img.gif-preview {
+    width: 100%;
+}
 }
 
 /*=== FADE IN LEFT ===*/
