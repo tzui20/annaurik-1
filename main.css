@@ -73,13 +73,13 @@
 	 	 font-weight: 100;
 }
  li.menu__item {
-     padding: 0.5rem 0rem;
-     margin: 0rem 1.5rem;
-     list-style-type: none;
-     font-size: 26px;
-     letter-spacing: 5px;
-     text-transform: uppercase;
-     font-weight: 100;
+    padding: 0.5rem 0rem;
+    margin: 0rem 1.5rem;
+    list-style-type: none;
+    font-size: 26px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 300;
 }
  li.menu__item:hover {
      opacity: 0.7;
